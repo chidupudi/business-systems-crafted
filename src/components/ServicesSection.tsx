@@ -39,12 +39,6 @@ const services = [
     features: ["Clean interfaces", "Role-based access", "Real-time data", "No bloat"],
   },
   {
-    icon: MessageSquare,
-    title: "WhatsApp Business Automation",
-    description: "Automated order updates, invoices, and customer communication via WhatsApp.",
-    features: ["Auto-notifications", "Invoice delivery", "Customer follow-ups", "Order tracking"],
-  },
-  {
     icon: BarChart3,
     title: "Analytics That Matter",
     description: "Dashboards with KPIs you actually use. No complex reports — just actionable insights.",
