@@ -49,7 +49,7 @@ const Navbar = () => {
             </div>
           </div>
           <span className="text-xl font-bold text-foreground">
-            Digi<span className="text-gradient">Forge</span>
+            Daten<span className="text-gradient">work</span>
           </span>
         </a>
 

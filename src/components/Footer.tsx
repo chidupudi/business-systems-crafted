@@ -51,7 +51,7 @@ const Footer = () => {
                 </div>
               </div>
               <span className="text-xl font-bold text-foreground">
-                Digi<span className="text-gradient">Forge</span>
+                Daten<span className="text-gradient">work</span>
               </span>
             </a>
             <p className="text-muted-foreground leading-relaxed mb-6">
@@ -117,7 +117,7 @@ const Footer = () => {
                 <div className="w-8 h-8 rounded-lg bg-primary/10 flex items-center justify-center group-hover:bg-primary/20 transition-colors duration-300">
                   <Mail className="w-4 h-4 text-primary" />
                 </div>
-                hello@digiforge.com
+                hello@datenwork.com
               </li>
               <li className="group flex items-center gap-3 text-muted-foreground hover:text-foreground transition-colors duration-300 cursor-pointer">
                 <div className="w-8 h-8 rounded-lg bg-primary/10 flex items-center justify-center group-hover:bg-primary/20 transition-colors duration-300">
@@ -138,7 +138,7 @@ const Footer = () => {
         {/* Bottom */}
         <div className="pt-8 border-t border-border/50 flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-sm text-muted-foreground">
-            © {currentYear} DigiForge. All rights reserved.
+            © {currentYear} Datenwork. All rights reserved.
           </p>
           <div className="flex gap-6 text-sm text-muted-foreground">
             <a href="#" className="hover:text-foreground underline-animate transition-colors">Privacy Policy</a>
