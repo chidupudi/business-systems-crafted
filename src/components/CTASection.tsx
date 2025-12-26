@@ -34,14 +34,14 @@ const CTASection = () => {
               <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-primary opacity-75"></span>
               <span className="relative inline-flex rounded-full h-2 w-2 bg-primary"></span>
             </span>
-            Ready to Transform?
+            Let Us Handle It
           </div>
 
           {/* Heading with gradient animation */}
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-foreground mb-6 leading-tight animate-blur-in delay-100">
-            Let's{" "}
+            Ready to{" "}
             <span className="relative inline-block">
-              <span className="text-gradient">Digitize</span>
+              <span className="text-gradient">Transform</span>
               <svg className="absolute -bottom-1 left-0 w-full" viewBox="0 0 200 8" fill="none">
                 <path 
                   d="M2 6C40 2 80 2 100 4C120 6 160 6 198 2" 
@@ -58,12 +58,12 @@ const CTASection = () => {
                 </defs>
               </svg>
             </span>{" "}
-            Your Business Operations
+            Your Business?
           </h2>
 
           {/* Subtitle */}
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto mb-12 leading-relaxed animate-fade-up delay-300">
-            Build systems that work while you focus on growth. Schedule a free consultation to discover how we can transform your operations.
+            We take care of the work. You focus on growth. Tell us your pain points and we'll show you how automation can solve them.
           </p>
 
           {/* CTA Buttons with enhanced animations */}
@@ -86,10 +86,10 @@ const CTASection = () => {
           {/* Taglines with animations */}
           <div className="mt-16 pt-12 border-t border-border/50 animate-fade-up delay-600">
             <p className="text-muted-foreground italic text-lg mb-8 animate-float" style={{ animationDuration: '4s' }}>
-              "Smarter Systems. Faster Growth. Better Control."
+              "Simple Solutions. Real Automation. Business Results."
             </p>
             <div className="flex flex-wrap justify-center gap-x-8 gap-y-4 text-sm stagger-children">
-              {["No Long-Term Contracts", "Flexible Engagement", "Post-Launch Support"].map((item, i) => (
+              {["No Over-Engineering", "Practical Automations", "Ongoing Support"].map((item, i) => (
                 <span key={i} className="flex items-center gap-2 text-muted-foreground hover:text-foreground transition-colors duration-300 cursor-default">
                   <span className="w-1.5 h-1.5 rounded-full bg-primary" />
                   {item}

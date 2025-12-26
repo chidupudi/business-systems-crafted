@@ -36,14 +36,14 @@ const HeroSection = () => {
               <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-primary opacity-75"></span>
               <span className="relative inline-flex rounded-full h-2 w-2 bg-primary"></span>
             </span>
-            Technology that Works for Your Business
+            No Over-Engineering. Just Results.
           </div>
 
           {/* Main heading with reveal animation */}
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold leading-tight mb-8 animate-blur-in delay-200">
-            Building Digital Systems That{" "}
+            We Take Care of the Work.{" "}
             <span className="text-gradient relative">
-              Increase Business
+              You Focus on Growth
               <svg className="absolute -bottom-2 left-0 w-full" viewBox="0 0 300 12" fill="none">
                 <path 
                   d="M2 10C50 4 100 2 150 6C200 10 250 4 298 8" 
@@ -59,14 +59,13 @@ const HeroSection = () => {
                   </linearGradient>
                 </defs>
               </svg>
-            </span>{" "}
-            Productivity
+            </span>
           </h1>
 
           {/* Subtitle */}
           <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto mb-12 leading-relaxed animate-fade-up delay-400">
-            From manual processes to intelligent automation. We deliver modern technology 
-            solutions designed for real-world operations — scalable, secure, and built for growth.
+            We don't over-engineer products. We deliver practical automations that streamline 
+            your business logic and supply chain — so you can scale without the complexity.
           </p>
 
           {/* CTA Buttons */}
@@ -87,10 +86,10 @@ const HeroSection = () => {
           {/* Stats with counter animation */}
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mt-20 pt-12 border-t border-border/50 stagger-children">
             {[
-              { value: "150+", label: "Projects Delivered" },
-              { value: "98%", label: "Client Satisfaction" },
-              { value: "50+", label: "Happy Clients" },
-              { value: "24/7", label: "Support Available" },
+              { value: "10x", label: "Faster Operations" },
+              { value: "60%", label: "Cost Reduction" },
+              { value: "Zero", label: "Over-Engineering" },
+              { value: "100%", label: "Business Focused" },
             ].map((stat, index) => (
               <div key={index} className="text-center group cursor-default">
                 <div className="text-3xl md:text-4xl font-bold text-gradient mb-2 group-hover:scale-110 transition-transform duration-300">
