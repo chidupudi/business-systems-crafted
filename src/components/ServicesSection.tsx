@@ -18,7 +18,7 @@ const services = [
     icon: Workflow,
     title: "Business Process Automation",
     description: "Eliminate repetitive tasks. We automate your workflows so your team focuses on what matters.",
-    features: ["Workflow automation", "Smart triggers", "Zero manual effort", "Instant results"],
+    features: ["Workflow automation", "Smart triggers", "Zero manual effort"],
   },
   {
     icon: Package,
