@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
-import { Menu, X, Zap } from "lucide-react";
+import { Menu, X, Zap, LayoutDashboard } from "lucide-react";
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -73,8 +74,14 @@ const Navbar = () => {
           ))}
         </div>
 
-        {/* CTA Button with hover effect */}
-        <div className="hidden md:block">
+        {/* CTA Buttons */}
+        <div className="hidden md:flex items-center gap-3">
+          <Link to="/dashboard">
+            <Button variant="glass" size="default" className="group gap-2">
+              <LayoutDashboard className="w-4 h-4" />
+              <span>Dashboard</span>
+            </Button>
+          </Link>
           <Button variant="hero" size="default" className="group hover-glow">
             <span className="group-hover:scale-105 transition-transform duration-300">Get Started</span>
           </Button>
@@ -110,7 +117,13 @@ const Navbar = () => {
                 {link.label}
               </a>
             ))}
-            <Button variant="hero" className="mt-4 w-full">
+            <Link to="/dashboard" onClick={() => setIsMobileMenuOpen(false)}>
+              <Button variant="glass" className="w-full gap-2">
+                <LayoutDashboard className="w-4 h-4" />
+                Dashboard
+              </Button>
+            </Link>
+            <Button variant="hero" className="w-full">
               Get Started
             </Button>
           </div>
