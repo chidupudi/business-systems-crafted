@@ -79,8 +79,12 @@ const services = [
 const ServicesSection = () => {
   return (
     <section id="services" className="py-32 relative overflow-hidden">
-      {/* Background glow */}
-      <div className="glow-orb glow-orb-primary w-[400px] h-[400px] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 opacity-30" />
+      {/* Background glows */}
+      <div className="glow-orb glow-orb-primary w-[500px] h-[500px] top-1/4 -left-60 opacity-20" />
+      <div className="glow-orb glow-orb-accent w-[400px] h-[400px] bottom-1/4 -right-40 opacity-15" />
+      
+      {/* Subtle grid */}
+      <div className="absolute inset-0 dot-pattern opacity-20" />
       
       <div className="container mx-auto px-6 relative z-10">
         <SectionHeader
@@ -89,7 +93,7 @@ const ServicesSection = () => {
           subtitle="Everything you need to run, scale, and optimize your business operations. From web applications to intelligent automation."
         />
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
           {services.map((service, index) => (
             <ServiceCard
               key={index}
@@ -97,7 +101,7 @@ const ServicesSection = () => {
               title={service.title}
               description={service.description}
               features={service.features}
-              delay={index * 100}
+              delay={index * 80}
             />
           ))}
         </div>
