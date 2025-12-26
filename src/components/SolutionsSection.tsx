@@ -5,32 +5,32 @@ import { useState } from "react";
 const impacts = [
   {
     icon: TrendingUp,
-    title: "Increase Productivity",
-    description: "Streamline operations across all teams with automated workflows and intelligent systems.",
+    title: "We Handle the Work",
+    description: "Focus on your business. We take care of the technical heavy lifting and automation.",
     color: "from-emerald-500/20 to-emerald-500/5",
   },
   {
     icon: DollarSign,
-    title: "Reduce Costs",
-    description: "Cut operational costs by eliminating manual processes and optimizing resource utilization.",
+    title: "No Over-Engineering",
+    description: "We build what you need — nothing more. Simple, effective solutions that just work.",
     color: "from-amber-500/20 to-amber-500/5",
   },
   {
     icon: Target,
-    title: "Improve Accuracy",
-    description: "Minimize errors with automated data processing, validation, and real-time monitoring.",
+    title: "Streamlined Business Logic",
+    description: "We simplify your processes and remove bottlenecks so operations flow smoothly.",
     color: "from-rose-500/20 to-rose-500/5",
   },
   {
     icon: LineChart,
-    title: "Data-Driven Decisions",
-    description: "Enable informed decision-making with comprehensive analytics and actionable insights.",
+    title: "Supply Chain Clarity",
+    description: "End-to-end visibility from vendor to customer. Know exactly where everything stands.",
     color: "from-violet-500/20 to-violet-500/5",
   },
   {
     icon: Users,
-    title: "Scale Efficiently",
-    description: "Grow your business without proportionally increasing headcount through smart automation.",
+    title: "Scale Without Complexity",
+    description: "Grow your business without growing your problems. Automation that scales with you.",
     color: "from-sky-500/20 to-sky-500/5",
   },
 ];
@@ -88,9 +88,9 @@ const SolutionsSection = () => {
       
       <div className="container mx-auto px-6 relative z-10">
         <SectionHeader
-          badge="Business Impact"
-          title="How This Transforms Your Business"
-          subtitle="Real, measurable improvements that drive growth and efficiency across your organization."
+          badge="Why Us"
+          title="Transform Your Business, Not Complicate It"
+          subtitle="We believe in practical solutions. Your business runs better — without the tech overwhelm."
         />
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mt-12">

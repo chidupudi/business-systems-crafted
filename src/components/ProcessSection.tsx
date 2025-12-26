@@ -6,26 +6,26 @@ const steps = [
   {
     icon: MessageSquare,
     number: "01",
-    title: "Consult",
-    description: "We understand your business challenges, goals, and existing processes to identify the best technology solutions.",
+    title: "Understand",
+    description: "We listen to your pain points. What slows you down? Where are the bottlenecks? We map it out.",
   },
   {
     icon: Wrench,
     number: "02",
-    title: "Build",
-    description: "Our team designs and develops custom solutions tailored to your specific requirements with modern technologies.",
+    title: "Simplify",
+    description: "We streamline your business logic. No unnecessary features — just what moves the needle.",
   },
   {
     icon: Zap,
     number: "03",
     title: "Automate",
-    description: "We implement intelligent automation to streamline workflows, reduce manual effort, and improve accuracy.",
+    description: "We build practical automations that eliminate manual work and keep operations running 24/7.",
   },
   {
     icon: TrendingUp,
     number: "04",
-    title: "Scale",
-    description: "Continuous support and optimization ensure your systems grow with your business seamlessly.",
+    title: "Deliver",
+    description: "You get a transformed business. We handle support so you stay focused on growth.",
   },
 ];
 
@@ -42,8 +42,8 @@ const ProcessSection = () => {
       <div className="container mx-auto px-6 relative z-10">
         <SectionHeader
           badge="Our Approach"
-          title="Consult → Build → Automate → Scale"
-          subtitle="A proven methodology for delivering successful digital transformations. Custom solutions, not one-size-fits-all."
+          title="Understand → Simplify → Automate → Deliver"
+          subtitle="We don't sell complexity. We take care of the work so you can focus on running your business."
         />
 
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8 mt-16">
@@ -99,11 +99,11 @@ const ProcessSection = () => {
         {/* Features list with hover animations */}
         <div className="mt-20 flex flex-wrap justify-center gap-3 stagger-children">
           {[
-            "Fast Deployment",
-            "Long-Term Support",
-            "Transparent Pricing",
-            "Clear Timelines",
-            "Custom Solutions",
+            "No Over-Engineering",
+            "Practical Solutions",
+            "Quick Turnaround",
+            "Ongoing Support",
+            "Results Focused",
           ].map((feature, index) => (
             <div
               key={index}

@@ -15,64 +15,40 @@ import {
 
 const services = [
   {
-    icon: Globe,
-    title: "Web Application Development",
-    description: "Custom web applications built for scale with secure, high-performance platforms and professional dashboards.",
-    features: ["Admin dashboards", "Client portals", "Internal operations tools", "Role-based access"],
-  },
-  {
     icon: Workflow,
     title: "Business Process Automation",
-    description: "Automate repetitive workflows and reduce manual effort with smart automation for operations, finance, and reporting.",
-    features: ["Rule-based automation", "Event-driven systems", "Real-time alerts", "Action triggers"],
-  },
-  {
-    icon: CreditCard,
-    title: "POS & Billing Solutions",
-    description: "Smart POS systems designed for retail & service businesses with fast billing, inventory sync, and sales tracking.",
-    features: ["GST-ready invoicing", "Multi-outlet support", "Real-time reports", "Multi-user access"],
+    description: "Eliminate repetitive tasks. We automate your workflows so your team focuses on what matters.",
+    features: ["Workflow automation", "Smart triggers", "Zero manual effort", "Instant results"],
   },
   {
     icon: Package,
-    title: "Inventory Management",
-    description: "Real-time inventory visibility with stock movement, alerts, forecasting, and vendor tracking.",
-    features: ["Stock alerts", "Purchase tracking", "Multi-location control", "Demand forecasting"],
-  },
-  {
-    icon: MessageSquare,
-    title: "WhatsApp Integration",
-    description: "WhatsApp-first business communication with automated order updates, billing, and customer support.",
-    features: ["Automated notifications", "Invoice delivery", "Customer follow-ups", "Order updates"],
+    title: "Supply Chain Optimization",
+    description: "Streamline your entire supply chain from vendor to customer with real-time visibility.",
+    features: ["Inventory sync", "Vendor management", "Demand forecasting", "Multi-location"],
   },
   {
     icon: Bot,
-    title: "Intelligent Bots",
-    description: "AI-powered bots for customer and internal operations. 24×7 systems that work without human intervention.",
-    features: ["Sales chatbots", "Lead qualification", "Data processing", "Monitoring bots"],
+    title: "Intelligent Automations",
+    description: "24/7 systems that work without human intervention. Bots that handle operations, support, and data.",
+    features: ["Auto-responses", "Lead handling", "Data processing", "Always-on"],
   },
   {
-    icon: Cloud,
-    title: "Cloud Migration",
-    description: "Move your business securely to the cloud with scalable, cost-optimized infrastructure on AWS, GCP, and Azure.",
-    features: ["High availability", "Backup solutions", "Disaster recovery", "Cost optimization"],
+    icon: Globe,
+    title: "Business Portals & Dashboards",
+    description: "Simple, effective web applications. Admin panels, client portals — built for your actual needs.",
+    features: ["Clean interfaces", "Role-based access", "Real-time data", "No bloat"],
+  },
+  {
+    icon: MessageSquare,
+    title: "WhatsApp Business Automation",
+    description: "Automated order updates, invoices, and customer communication via WhatsApp.",
+    features: ["Auto-notifications", "Invoice delivery", "Customer follow-ups", "Order tracking"],
   },
   {
     icon: BarChart3,
-    title: "Dashboards & Analytics",
-    description: "Decision-ready dashboards for business leaders with real-time KPIs, metrics, and custom reports.",
-    features: ["Real-time insights", "Custom reports", "Data visualization", "Performance tracking"],
-  },
-  {
-    icon: Shield,
-    title: "Security & Compliance",
-    description: "Enterprise-grade security by design with role-based access, audit logs, and encrypted storage.",
-    features: ["Data protection", "Activity tracking", "Secure APIs", "Access control"],
-  },
-  {
-    icon: Cpu,
-    title: "Modern Tech Stack",
-    description: "Built with modern, future-ready technologies. Cloud-native and API-first architecture designed to evolve.",
-    features: ["AI integration", "Scalable systems", "API-first", "Future-ready"],
+    title: "Analytics That Matter",
+    description: "Dashboards with KPIs you actually use. No complex reports — just actionable insights.",
+    features: ["Key metrics only", "Simple reports", "Quick decisions", "Clear visuals"],
   },
 ];
 
@@ -88,9 +64,9 @@ const ServicesSection = () => {
       
       <div className="container mx-auto px-6 relative z-10">
         <SectionHeader
-          badge="Our Capabilities"
-          title="End-to-End Technology Solutions"
-          subtitle="Everything you need to run, scale, and optimize your business operations. From web applications to intelligent automation."
+          badge="What We Do"
+          title="Practical Automations. Real Results."
+          subtitle="We don't build complex systems you don't need. We deliver focused solutions that streamline your operations."
         />
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
